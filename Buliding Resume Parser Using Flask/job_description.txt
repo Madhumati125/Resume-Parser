@@ -1,0 +1,1 @@
+We are looking for a skilled Python developer with experience in Machine Learning, NLP, and working with TensorFlow and Pandas. Knowledge of Docker and Kubernetes is a plus.

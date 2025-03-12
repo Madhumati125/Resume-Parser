@@ -1,0 +1,6 @@
+{
+    "Programming": ["Python", "Java", "JavaScript", "C++", "Node.js", "React", "Django", "Flask"],
+    "Data Science": ["Machine Learning", "Deep Learning", "NLP", "TensorFlow", "PyTorch", "Pandas", "NumPy", "Scikit-learn"],
+    "Database": ["SQL", "MongoDB", "MySQL", "PostgreSQL", "SQLite"],
+    "DevOps": ["Docker", "Kubernetes", "AWS", "Azure", "GCP"]
+}

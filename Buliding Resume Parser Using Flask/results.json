@@ -1,0 +1,74 @@
+[
+    {
+        "resume": "resume.pdf",
+        "extracted_skills": {
+            "Programming": [
+                "python",
+                "Python",
+                "C++"
+            ],
+            "Data Science": [
+                "machine learning",
+                "tensorflow",
+                "pandas",
+                "nlp",
+                "Machine Learning",
+                "TensorFlow",
+                "Pandas",
+                "NLP"
+            ],
+            "Database": [
+                "MongoDB"
+            ],
+            "DevOps": [
+                "docker",
+                "Docker"
+            ]
+        },
+        "skill_counts": {
+            "Programming": 3,
+            "Data Science": 8,
+            "Database": 1,
+            "DevOps": 2
+        },
+        "experience": 0,
+        "education": []
+    },
+    {
+        "resume": "resume2.pdf",
+        "extracted_skills": {
+            "Programming": [
+                "python",
+                "Python",
+                "C++"
+            ],
+            "Data Science": [
+                "machine learning",
+                "tensorflow",
+                "pandas",
+                "nlp",
+                "Machine Learning",
+                "TensorFlow",
+                "Pandas",
+                "NLP"
+            ],
+            "Database": [
+                "sql",
+                "SQL",
+                "MongoDB"
+            ],
+            "DevOps": [
+                "docker",
+                "Docker"
+            ]
+        },
+        "skill_counts": {
+            "Programming": 3,
+            "Data Science": 8,
+            "Database": 3,
+            "DevOps": 2
+        },
+        "experience": 0,
+        "education": []
+    }
+]

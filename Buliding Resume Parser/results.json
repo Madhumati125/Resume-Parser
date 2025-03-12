@@ -1,0 +1,52 @@
+[
+    {
+        "resume": "resume.pdf",
+        "extracted_skills": {
+            "Programming": [
+                "python"
+            ],
+            "Data Science": [
+                "machine learning",
+                "tensorflow",
+                "pandas",
+                "nlp"
+            ],
+            "Database": [],
+            "DevOps": [
+                "docker"
+            ]
+        },
+        "skill_counts": {
+            "Programming": 1,
+            "Data Science": 4,
+            "Database": 0,
+            "DevOps": 1
+        }
+    },
+    {
+        "resume": "resume2.pdf",
+        "extracted_skills": {
+            "Programming": [
+                "python"
+            ],
+            "Data Science": [
+                "machine learning",
+                "tensorflow",
+                "pandas",
+                "nlp"
+            ],
+            "Database": [
+                "sql"
+            ],
+            "DevOps": [
+                "docker"
+            ]
+        },
+        "skill_counts": {
+            "Programming": 1,
+            "Data Science": 4,
+            "Database": 1,
+            "DevOps": 1
+        }
+    }
+]

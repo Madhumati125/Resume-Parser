@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Parser</title>
+</head>
+<body>
+    <h2>Resume Parser</h2>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" required />
+        <button type="submit">Upload</button>
+    </form>
+
+    <div id="results"></div>
+
+    <script>
+        const form = document.querySelector('form');
+        const results = document.getElementById('results');
+
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const formData = new FormData(form);
+            const response = await fetch('/upload', {
+                method: 'POST',
+                body: formData
+            });
+            const data = await response.json();
+
+            results.innerHTML = `
+                <h3>Results:</h3>
+                <p><strong>Resume:</strong> ${data.resume}</p>
+                <p><strong>Experience:</strong> ${data.experience} years</p>
+                <p><strong>Education:</strong> ${data.education.join(', ')}</p>
+                <h4>Skills:</h4>
+                ${Object.entries(data.extracted_skills).map(([category, skills]) => `
+                    <p><strong>${category}:</strong> ${skills.join(', ')}</p>
+                `).join('')}
+            `;
+        });
+    </script>
+</body>
+</html>
