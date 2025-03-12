@@ -1,0 +1,7 @@
+Skills:
+- Python
+- Machine Learning
+- NLP
+- Flask
+- Django
+- SpaCy
