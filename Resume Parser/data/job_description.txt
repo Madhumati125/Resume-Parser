@@ -1,0 +1,6 @@
+Skills:
+- Python
+- Machine Learning
+- Natural Language Processing
+- Data Analysis
+- Communication

@@ -1,0 +1,4 @@
+spacy
+python-docx
+scikit-learn
+fuzzywuzzy
