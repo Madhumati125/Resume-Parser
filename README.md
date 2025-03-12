@@ -29,3 +29,31 @@ File: resume2.docx
 Matched Skills: ['Python', 'Python', 'Machine Learning']
 TF-IDF Scores: {'Python': 0.32025630761017426, 'Machine Learning': 0}
 ----------------------------------------
+
+Output using shutil
+In resume_results.txt:
+NLP: 2
+Python: 5
+Machine Learning: 3
+
+In resume2_results.txt:
+NLP: 2
+Python: 6
+Machine Learning: 3
+
+And in console:
+Job Skills: ['Python', 'Machine Learning', 'NLP', 'Flask', 'Django', 'SpaCy']
+
+Processing: resume.pdf
+Skills Found:
+NLP: 2
+Python: 5
+Machine Learning: 3
+
+Processing: resume2.pdf
+Skills Found:
+NLP: 2
+Python: 6
+Machine Learning: 3
+
+✅ Resume Parsing Complete!
