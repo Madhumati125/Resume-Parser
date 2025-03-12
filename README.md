@@ -19,3 +19,13 @@ Skill Counts: {'Programming': 1, 'Data Science': 4, 'Database': 1, 'DevOps': 1}
 Output of Resume-Parser Using Flask
 ![resume](https://github.com/user-attachments/assets/5ae7dad8-2ea4-4f08-affe-771b8c39cb0f)
 ![resume2](https://github.com/user-attachments/assets/7e560e27-b29a-4724-b9ac-18453b69426a)
+
+Output from Resume-Parser
+File: resume.docx
+Matched Skills: ['Python', 'Python', 'Machine Learning']
+TF-IDF Scores: {'Python': 0.3922322702763681, 'Machine Learning': 0}
+----------------------------------------
+File: resume2.docx
+Matched Skills: ['Python', 'Python', 'Machine Learning']
+TF-IDF Scores: {'Python': 0.32025630761017426, 'Machine Learning': 0}
+----------------------------------------
